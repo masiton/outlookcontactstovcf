@@ -7,4 +7,4 @@ Microsoft removed all feasible ways to export contacts as a .vcf file in Office 
 Pull this repo, open in VS, press F5, it'll build and run. The .vcf file is stored in the debug folder, it has a guid name.
 
 # You are a user
-Download the .exe file, place it on a PC with Outlook and into a folder where you want the .vcf contacts stored and run it. It'll export all contacts into a file named something like asdf-ghjkla-asdfghg-jklh.vcf and that's the file you need for Thunderbird or other contact-keeping software. Talk to your IT-buddy before running .exe off the internet.
+Download the build.7z file, place it on a PC with Outlook and into a folder where you want the .vcf contacts stored, unpack it and run OutlookContactsExtractor.exe. It'll export all contacts into a file named something like asdf-ghjkla-asdfghg-jklh.vcf and that's the file you need for Thunderbird or other contact-keeping software. Talk to your IT-buddy before running .exe off the internet.
