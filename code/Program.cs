@@ -29,6 +29,8 @@ namespace OutlookContactsExtractor
                     builder.Organizations.Add(new FolkerKinzel.VCards.Models.Organization(contact.Company));
                 }
 
+                builder.Titles.Add(contact.JobTitle);
+
                 cards.Add(card);
             }
 

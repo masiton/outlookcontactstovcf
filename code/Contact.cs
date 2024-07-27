@@ -7,6 +7,6 @@
         public string[] Emails { get; set; }
         public string[] Phones { get; set; }
         public string Company { get; set; }
-
+        public string JobTitle { get; set; }
     }
 }

@@ -28,6 +28,7 @@ namespace OutlookContactsExtractor
                     Phones = GetPhones(contact),
                     Emails = GetEmails(contact),
                     Company = contact.CompanyName,
+                    JobTitle = contact.JobTitle,
                 };
 
                 contacts.Add(c);
